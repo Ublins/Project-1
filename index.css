@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Images/Layer.jpg);
+    background-repeat: no-repeat;
+    height: 5000px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'PT Sans Narrow';
+    background-size: cover;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.form {
+    padding: 50px 80px;
+    background-image: url(./Images/bg_litle.jpg);
+    background-repeat: repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+
+.close {
+    background-image: url(./Images/cross.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -1px;
+    right: -42px;
+    padding: 0;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.discription {
+    font-size: 14px;
+    margin-bottom: 14px;
+    margin: 5px;
+    padding-bottom: 15px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    border: 2px solid#000;
+    padding: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    padding-left: 15px;
+    padding-right: 30px;
+    font-family: 'PT Sans Narrow';
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.login {
+    margin-bottom: 10px;
+}
+
+.input-wrapper::after {
+    content: '';
+    width: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    top: 50%;
+    margin-top: -7px;
+    right: 15px;
+}
+
+.login::after {
+    background-image: url(./Images/user.jpg);
+}
+
+.password::after {
+    background-image: url(./Images/lock.png);  
+}
+
+.button_forget {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.forget {
+    font-size: 14px;
+    text-decoration: underline;
+    text-align: right;
+    color: #000;
+}
+
+.send {
+  width: 300px; 
+  height: 40px;
+  background-color: #000;
+  border: 0;
+  color: #ffffff;
+  font-weight: bold; 
+  text-transform: uppercase;
+  margin-top: 20px;
+}
